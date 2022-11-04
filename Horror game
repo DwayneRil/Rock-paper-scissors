@@ -1,0 +1,18 @@
+print("wake up on mainstreet and feel like a killer is following you")
+user_choice_1= str(input("where do you want to go"))
+if (user_choice_1 == str("basement")):
+  print(" you are in the basement ")  
+elif (str(user_choice_1) == str("floor1")):
+  print("your arrived at floor one ")
+  print("You hear foot steps coming from the stairs")
+  custom_var = input("DO you want to go outside or hide")
+  if (custom_var == "outside"):
+    print ("you lose")
+  elif (custom_var == "hide"):
+    print ("you made it out")
+elif (user_choice_1 == str("floor2")):
+  print("your on floor2")
+elif (user_choice_1 == str("floor3")):
+  print("your on floor3")
+else:
+  print("your choice wasn't listed")
